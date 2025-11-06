@@ -1,6 +1,6 @@
 import 'package:fintech_banking_investing_ui/screens/common_widgets/app_bar_widget.dart';
-import 'package:fintech_banking_investing_ui/screens/common_widgets/container_activity_info.dart';
-import 'package:fintech_banking_investing_ui/screens/common_widgets/container_balance_info.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/widgets/container_activity_info.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/widgets/container_balance_info.dart';
 
 import 'package:flutter/material.dart';
 

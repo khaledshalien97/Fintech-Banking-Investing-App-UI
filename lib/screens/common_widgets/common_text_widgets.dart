@@ -5,9 +5,7 @@ Widget commonTextWidget({
   String? text,
   double? fontSize,
   Color? color,
-
   FontWeight? fontWeight,
-
 }) {
   return Text(
     text!,
@@ -16,6 +14,5 @@ Widget commonTextWidget({
       color: color,
       fontWeight: fontWeight,
     ),
-  
   );
 }

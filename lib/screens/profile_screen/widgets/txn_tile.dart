@@ -18,7 +18,12 @@ ListTile txnTile({
       color: Color(0xff33404F),
       fontWeight: FontWeight.bold,
     ),
-    subtitle: commonTextWidget(text: subtitle, fontSize: 14,color: Color(0xff33404F).withOpacity(0.6),fontWeight: FontWeight.w500),
+    subtitle: commonTextWidget(
+      text: subtitle,
+      fontSize: 14,
+      color: Color(0xff33404F).withOpacity(0.6),
+      fontWeight: FontWeight.w500,
+    ),
     trailing: Column(
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [

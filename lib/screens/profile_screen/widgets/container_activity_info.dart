@@ -1,6 +1,6 @@
-import 'package:fintech_banking_investing_ui/screens/common_widgets/activity_card.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/widgets/activity_card.dart';
 import 'package:fintech_banking_investing_ui/screens/common_widgets/common_text_widgets.dart';
-import 'package:fintech_banking_investing_ui/screens/common_widgets/txn_tile.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/widgets/txn_tile.dart';
 import 'package:flutter/material.dart';
 
 class ContainerActivityInfo extends StatelessWidget {

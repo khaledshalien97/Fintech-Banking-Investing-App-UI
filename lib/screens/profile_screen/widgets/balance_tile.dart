@@ -11,9 +11,7 @@ Widget balanceTile({
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       commonTextWidget(text: title, fontSize: 16, color: Colors.white),
-
       const SizedBox(height: 6),
-
       commonTextWidget(
         text: amount,
         fontSize: 22,

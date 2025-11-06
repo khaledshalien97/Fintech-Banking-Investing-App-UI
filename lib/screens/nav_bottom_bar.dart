@@ -1,6 +1,6 @@
-import 'package:fintech_banking_investing_ui/screens/balance_screen.dart';
-import 'package:fintech_banking_investing_ui/screens/dashboard_screen.dart';
-import 'package:fintech_banking_investing_ui/screens/profile_screen.dart';
+import 'package:fintech_banking_investing_ui/screens/balance_screen/balance_screen.dart';
+import 'package:fintech_banking_investing_ui/screens/dashboard_screen/dashboard_screen.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

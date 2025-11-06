@@ -7,7 +7,6 @@ class WeeklyChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     // backgroundColor: Colors.white,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(20),
@@ -51,7 +50,7 @@ class WeeklyChart extends StatelessWidget {
               ),
               borderData: FlBorderData(show: false),
               lineBarsData: [
-                // الخط الأسود المتقطع
+            
                 LineChartBarData(
                   spots: const [
                     FlSpot(0, 150),
@@ -71,7 +70,6 @@ class WeeklyChart extends StatelessWidget {
                     show: true,
                     getDotPainter: (spot, _, __, ___) {
                       if (spot.x == 3) {
-                    
                         return FlDotCirclePainter(
                           radius: 8,
                           color: const Color(0xFF2D3340),
@@ -83,7 +81,6 @@ class WeeklyChart extends StatelessWidget {
                   ),
                 ),
 
-              
                 LineChartBarData(
                   spots: const [
                     FlSpot(0, 180),

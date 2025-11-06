@@ -1,4 +1,4 @@
-import 'package:fintech_banking_investing_ui/screens/common_widgets/balance_tile.dart';
+import 'package:fintech_banking_investing_ui/screens/profile_screen/widgets/balance_tile.dart';
 import 'package:fintech_banking_investing_ui/screens/common_widgets/common_text_widgets.dart';
 import 'package:flutter/material.dart';
 

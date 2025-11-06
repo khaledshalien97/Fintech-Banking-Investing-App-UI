@@ -12,15 +12,13 @@ AppBar appbarWidget({Color? color}) {
       text: "INVETO",
       color: color,
       fontWeight: FontWeight.w600,
-      fontSize: 22
+      fontSize: 22,
     ),
     centerTitle: false,
     leading: Padding(
       padding: const EdgeInsets.only(left: 20),
       child: SvgPicture.asset("asset/svg_images/logo.svg", color: color),
     ),
-    actions: [
-      SvgPicture.asset("asset/svg_images/menu.svg", color: color),
-    ],
+    actions: [SvgPicture.asset("asset/svg_images/menu.svg", color: color)],
   );
 }
